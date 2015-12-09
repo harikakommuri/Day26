@@ -1,0 +1,39 @@
+.nav .btn {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+.form {
+  width: 60%;
+}
+.nav {
+  float: right;
+}
+.signup h3,.signin h3 {
+  font-weight: bold;
+  text-align: center;
+}
+.signin,.signup {
+  background: #ADD490;
+}
+.signin {
+  display: none;
+}
+.signin .row {
+  text-align: center;
+  padding: 5px;
+}
+.signup {
+  padding: 10px;
+}
+body {
+  background-image: url("ubuntu-wallpaper_-11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+i {
+  background:white;
+  border-radius: 50%;
+  color: green;
+}

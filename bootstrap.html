@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+  <title>bootstrap form</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="bootstrap.min.js"></script>
+  <script type="text/javascript" src="jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="bootstrap.js"></script>
+</head>
+<body>
+  <div class="container">
+  <div class="form registrationForm">
+    <div class="form header">
+      <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><h3><span class="btn btn-sm btn-default" id="signinbutton">Sign In</span></h3></li>
+        <li>&nbsp;&nbsp;&nbsp;</li>
+        <li><h3><span class="btn btn-sm btn-success" id="signupbutton">Sign Up</span></h3></li>
+      </ul>
+    </div>
+    </div><!--form header-->
+    <div class="form signup">
+      <p><h3>WOULD YOU LIKE TO REGISTER!</h3></p>
+    <div class="row">
+        <div class="col-sm-4"><label>FirstName<sup>*</sup></label></div>
+        <div class="col-sm-8"><input type="name" id="firstname" class="input firstname" placeholder="Enter Firstname"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"><label>MiddleName</label></div>
+        <div class="col-sm-8"><input type="name" id="middlename" class="input middlename" placeholder="Enter Middlename"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"><label>SurName<sup>*</sup></label></div>
+        <div class="col-sm-8"><input type="name" id="surname" class="input surname" placeholder="Enter Surname"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"><label>DOB<sup>*</sup></label></div>
+        <div class="col-sm-8"><input type="date" id="dob" class="input date" placeholder="yyyy/mm/dd"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"><label>E-mail<sup>*</sup></label></div>
+        <div class="col-sm-8"><input type="email" id="email" class="input email" placeholder="Enter mailid"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"><label>Password<sup>*</sup></label></div>
+        <div class="col-sm-8"><input type="password" id="password" class="input password" placeholder="Enter Password"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"><label>Confirm Password<sup>*</sup></label></div>
+        <div class="col-sm-8"><input type="password" id="confirmpassword" class="input confirmpassword" placeholder="Re-enter Password"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"><label>Mobile Number<sup>*</sup></label></div>
+        <div class="col-sm-8"><input type="text" id="mobilenumber" class="input mobilenumber" placeholder="Enter mobilenumber"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"><label>Country<sup>*</sup></label></div>
+        <div class="col-sm-8">
+          <select class="input label-info">
+            <option selected>India</option>
+            <option>Australia</option>
+            <option>United States of Arab</option>
+          </select>
+        </div>
+    </div>
+    <div class="row">&nbsp;</div>
+    <div class="row">
+      <div class="col-sm-4">&nbsp;</div>
+      <div class="col-sm-4"><button class="btn btn-sm btn-success" id = "registerbutton">REGISTER</button></div>
+      <div class="col-sm-4">&nbsp;</div>
+    </div>
+  </div><!--form signup-->
+  <div class="form signin">
+    <p><h3>Please sign in</h3></p>
+    <div class="row">
+      <div class="col-sm-12"><input type="email" placeholder="mailId"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12"><input type="password" placeholder="password"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">&nbsp;</div>
+      <div class="col-sm-4"><button class="btn btn-sm btn-success">Signin</button></div>
+      <div class="col-sm-4">&nbsp;</div>
+    </div>
+  </div><!--from sign in-->
+  </div><!--registration form-->
+</div><!--container-->
+</body>
+</html>
